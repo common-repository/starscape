@@ -1,0 +1,35 @@
+.wp-block-a8c-starscape {
+  position: relative;
+  min-height: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  overflow: hidden;
+  overflow: clip;
+  box-sizing: border-box;
+  background: #000;
+  /*
+	 * v1 block styles.
+	 */ }
+  .wp-block-a8c-starscape__inner {
+    width: 100%; }
+  .wp-block-a8c-starscape__stars {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateZ(0); }
+  .wp-block-a8c-starscape:has(> .wp-block-a8c-starscape__heading) {
+    justify-content: initial;
+    padding: 0 40px; }
+  .wp-block-a8c-starscape__heading {
+    z-index: 1;
+    width: 100%;
+    font-size: 84px;
+    line-height: 1.3; }
+
+@keyframes wp-block-a8c-starscape-animation-rotate {
+  from {
+    transform: rotateZ(0deg); }
+  to {
+    transform: rotateZ(360deg); } }
